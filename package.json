@@ -3,5 +3,16 @@
   "version": "1.0.0",
   "main": "index.js",
   "author": "naughtLdy",
-  "license": "MIT"
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "source-map-loader": "^0.2.3",
+    "vue": "^2.5.16",
+    "vue-loader": "^15.2.6",
+    "vue-template-compiler": "^2.5.16",
+    "webpack": "^4.16.2",
+    "webpack-cli": "^3.1.0"
+  }
 }
