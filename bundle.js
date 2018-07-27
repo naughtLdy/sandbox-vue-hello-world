@@ -1,6 +1,7 @@
+Vue.component("my-component", {
+  template: "<div>Hello World</div>"
+});
+
 const app = new Vue({
-  el: "#content",
-  data: {
-    testVal: "Hello World"
-  }
+  el: "#content"
 });
