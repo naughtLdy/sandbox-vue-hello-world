@@ -1,3 +1,9 @@
 <template>
-  <div>Hello World</div>
+  <div>{{ message }}</div>
 </template>
+
+<script>
+module.exports = {
+  props: ["message"]
+};
+</script>
