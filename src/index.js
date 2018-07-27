@@ -4,5 +4,5 @@ import App from "./App.vue";
 const app = new Vue({
   el: "#content",
   components: { App },
-  template: '<app message="Hello World" />'
+  template: "<app />"
 });

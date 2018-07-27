@@ -1,9 +1,17 @@
 <template>
-  <div>{{ message }}</div>
+  <HelloWorld v-bind:message="message"></HelloWorld>
 </template>
 
 <script>
-module.exports = {
-  props: ["message"]
+import Vue from "vue";
+import HelloWorld from "./HelloWorld.vue";
+
+export default {
+  components: { HelloWorld },
+  data: function() {
+    return {
+      message: "Hello World"
+    };
+  }
 };
 </script>
