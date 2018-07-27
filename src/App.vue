@@ -1,17 +1,17 @@
 <template>
-  <HelloWorld v-bind:message="message"></HelloWorld>
+  <HelloWorld :message="message"></HelloWorld>
 </template>
 
-<script>
+<script lang="ts">
 import Vue from "vue";
 import HelloWorld from "./HelloWorld.vue";
 
-export default {
+export default Vue.extend({
   components: { HelloWorld },
-  data: function() {
+  data() {
     return {
       message: "Hello World"
     };
   }
-};
+});
 </script>
