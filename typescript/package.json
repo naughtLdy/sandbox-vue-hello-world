@@ -8,13 +8,18 @@
     "build": "webpack"
   },
   "dependencies": {
-    "source-map-loader": "^0.2.3",
-    "ts-loader": "^4.4.2",
-    "typescript": "^2.9.2",
-    "vue": "^2.5.16",
-    "vue-loader": "^15.2.6",
-    "vue-template-compiler": "^2.5.16",
-    "webpack": "^4.16.2",
-    "webpack-cli": "^3.1.0"
+    "source-map-loader": "^0.2.4",
+    "ts-loader": "^5.3.3",
+    "typescript": "^3.2.2",
+    "vue": "^2.5.21",
+    "vue-loader": "^15.5.1",
+    "vue-template-compiler": "^2.5.21",
+    "webpack": "^4.28.4",
+    "webpack-cli": "^3.2.1"
+  },
+  "devDependencies": {
+    "husky": "^1.3.1",
+    "lint-staged": "^8.1.0",
+    "prettier": "^1.15.3"
   }
 }
