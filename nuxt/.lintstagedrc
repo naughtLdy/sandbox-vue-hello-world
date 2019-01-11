@@ -1,0 +1,11 @@
+{
+  "*.{ts,json,md}": [
+    "prettier --write",
+    "git add"
+  ],
+  "*.{vue}": [
+    "stylelint --fix",
+    "eslint --fix",
+    "git add"
+  ]
+}
